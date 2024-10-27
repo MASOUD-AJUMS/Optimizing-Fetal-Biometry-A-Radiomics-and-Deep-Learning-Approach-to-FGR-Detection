@@ -60,17 +60,20 @@ Project Setup
 
 3. Prepare the necessary data and place it in the specified directories.
 
-## Usage
+Usage
 
-To run the deep learning model and start data processing, use:
+You can run each part of the framework independently to suit your workflow or data availability. Here’s a breakdown of the main steps:
 
-```bash
-python main.py
+1. **Frame Classification**: To identify optimal frames for AC measurement, run the frame classification model. This will select the most suitable ultrasound frames for further processing.
+
+   ```bash
+   python Frame Classification Using Machine Learning.py
+
 ```
 
 Folder Structure
 
-- `data/`: Contains raw and processed data.
+- `data/`https://drive.google.com/file/d/1fuu0jpTh3FLOcfhDMefi_QAP2sqVy9IZ/view?usp=drive_link.
 - `Frame Classification/`: Frame Classification Using Machine Learning.
 - `Automated Segmentation/`Automated Segmentation of the Fetal Abdomen.
 
